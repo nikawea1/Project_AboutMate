@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Контакты — Tierra Mate</title>
+<meta content="Контакты, форма обратной связи, отзывы покупателей и частые вопросы Tierra Mate." name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet"/>
+<script defer="" src="js/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+<header class="site-header">
+<div class="container nav-row">
+<a aria-label="Tierra Mate — главная страница" class="brand" href="index.html">
+<span aria-hidden="true" class="brand-mark brand-icon"><svg focusable="false" role="img" viewbox="0 0 64 64"><path class="logo-cup" d="M20 28c0 12 6 20 15 20s15-8 15-20H20Z"></path><path class="logo-rim" d="M18 28c0-3 7-6 17-6s17 3 17 6-7 6-17 6-17-3-17-6Z"></path><path class="logo-leaf" d="M39 20c2-9 10-14 19-12-1 9-7 16-18 17"></path><path class="logo-leaf-line" d="M42 22c5-5 9-8 15-12"></path><path class="logo-straw" d="M42 13 33 38"></path></svg></span>
+<span class="brand-text">Tierra Mate<small>аргентинский мате</small></span>
+</a>
+<nav aria-label="Основная навигация" class="main-nav" id="mainNav">
+<a href="index.html">Главная</a>
+<a href="about.html">О компании</a>
+<a href="catalog.html">Каталог</a>
+<a href="gallery.html">Галерея</a>
+<a href="country.html">Аргентина</a>
+<a href="contacts.html">Контакты</a>
+</nav>
+<div class="nav-actions">
+<button aria-label="Переключить тему" class="theme-toggle" id="themeToggle" type="button">☾</button>
+<button aria-controls="mainNav" aria-expanded="false" aria-label="Открыть меню" class="burger" id="burger" type="button"><span></span><span></span><span></span></button>
+</div>
+</div>
+</header>
+<main id="main">
+<section class="page-hero section-paper"><div class="container page-hero-grid"><div class="reveal"><p class="eyebrow">Отзывы и контакты</p><h1>Связь с Tierra Mate.</h1><p class="lead">Здесь можно уточнить наличие вкусов, оставить оценку товара и открыть реальную карту региона мате в Аргентине.</p></div></div></section>
+<section class="section"><div class="container contact-layout"><form class="form-card reveal" id="contactForm" novalidate=""><p class="eyebrow">Обратная связь</p><h2>Напишите нам</h2><label>Имя<input name="name" placeholder="Ваше имя" required="" type="text"/><span class="error"></span></label><label>Телефон<input name="phone" placeholder="+375 29 000-00-00" required="" type="tel"/><span class="error"></span></label><label>Электронная почта<input name="email" placeholder="name@mail.ru" required="" type="email"/><span class="error"></span></label><label>Сообщение<textarea name="message" placeholder="Вопрос о продукции, наличии или доставке" required="" rows="5"></textarea><span class="error"></span></label><button class="btn btn-primary" type="submit">Отправить сообщение</button><p aria-live="polite" class="form-status" id="contactStatus"></p></form><aside class="contact-card reveal"><p class="eyebrow">Контакты</p><h2>Где нас найти</h2><p><strong>Адрес:</strong> Минск, ул. Купеческая, 12</p><p><strong>Телефон:</strong> +375 29 000-00-00</p><p><strong>Режим работы:</strong> Пн–Пт: 10:00–19:00, Сб: 11:00–16:00</p><div aria-label="Карта региона мате в Аргентине" class="real-map has-map-pin">
+<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Ober%C3%A1%2C%20Misiones%2C%20Argentina&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=near&amp;output=embed" title="Оберá, Мисьонес, Аргентина"></iframe>
+<span aria-hidden="true" class="map-pin-dot">Мисьонес</span>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Ober%C3%A1%2C%20Misiones%2C%20Argentina%20yerba%20mate" rel="noopener" target="_blank">Открыть регион мате на Google Maps</a>
+</div></aside></div></section>
+<section class="section section-muted"><div class="container review-layout"><div class="review-column reveal"><p class="eyebrow">Отзывы</p><h2>Оценки покупателей</h2><div class="reviews" id="reviewsList"></div></div><form class="form-card reveal" id="reviewForm" novalidate=""><p class="eyebrow">Новая оценка</p><h2>Оставить оценку</h2><label>Имя<input name="name" placeholder="Ваше имя" required="" type="text"/><span class="error"></span></label><label>Товар<select name="product" required=""><option value="">Выберите товар</option><option data-price="24" value="Классический мате">Классический мате — 24 BYN</option><option data-price="27" value="Мятная свежесть">Мятная свежесть — 27 BYN</option><option data-price="28" value="Лесные ягоды">Лесные ягоды — 28 BYN</option><option data-price="34" value="Мате без стебля">Мате без стебля — 34 BYN</option><option data-price="36" value="Премиум резерв">Премиум резерв — 36 BYN</option><option data-price="29" value="Мята и лайм">Мята и лайм — 29 BYN</option><option data-price="35" value="Гуарана и энергия">Гуарана и энергия — 35 BYN</option><option data-price="28" value="Ромашка и мёд">Ромашка и мёд — 28 BYN</option><option data-price="31" value="Имбирь и лимон">Имбирь и лимон — 31 BYN</option><option data-price="34" value="Чили и какао">Чили и какао — 34 BYN</option><option data-price="28" value="Цитрусовый микс">Цитрусовый микс — 28 BYN</option><option data-price="29" value="Зелёный мате с лавандой">Зелёный мате с лавандой — 29 BYN</option><option data-price="30" value="Ягоды и ваниль">Ягоды и ваниль — 30 BYN</option><option data-price="32" value="Яблоко и корица">Яблоко и корица — 32 BYN</option><option data-price="32" value="Крепкий мате">Крепкий мате — 32 BYN</option><option data-price="22" value="Органический натуральный">Органический натуральный — 22 BYN</option><option data-price="33" value="Какао и ягоды">Какао и ягоды — 33 BYN</option><option data-price="31" value="Манго и персик">Манго и персик — 31 BYN</option><option data-price="28" value="Травяной релакс">Травяной релакс — 28 BYN</option><option data-price="30" value="Классический экстра">Классический экстра — 30 BYN</option></select><span class="error"></span></label><label class="rating-field">Оценка<select name="rating" required=""><option value="">Выберите оценку</option><option value="5">★★★★★ — отлично</option><option value="4">★★★★☆ — хорошо</option><option value="3">★★★☆☆ — нормально</option><option value="2">★★☆☆☆ — с замечаниями</option><option value="1">★☆☆☆☆ — не понравилось</option></select><span class="error"></span></label><button class="btn btn-primary" type="submit">Добавить оценку</button><p aria-live="polite" class="form-status" id="reviewStatus"></p></form></div></section>
+<section class="section"><div class="container"><div class="section-head reveal"><p class="eyebrow">Вопросы</p><h2>Частые вопросы</h2></div><div class="faq"><article class="faq-item reveal"><button aria-expanded="false" class="faq-question" type="button">Как выбрать первый мате?<span>+</span></button><div class="faq-answer"><p>Начните с мягкой или классической партии. Крепкие варианты лучше брать после знакомства с базовым вкусом.</p></div></article><article class="faq-item reveal"><button aria-expanded="false" class="faq-question" type="button">Почему вода не должна быть кипятком?<span>+</span></button><div class="faq-answer"><p>Слишком горячая вода делает настой резко горьким. Для большинства партий достаточно воды ниже кипения.</p></div></article><article class="faq-item reveal"><button aria-expanded="false" class="faq-question" type="button">Можно ли заваривать холодным способом?<span>+</span></button><div class="faq-answer"><p>Да. Для холодного настоя лучше подходят цитрусовые и мятные партии.</p></div></article></div></div></section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<a class="brand footer-brand" href="index.html"><span aria-hidden="true" class="brand-mark brand-icon"><svg focusable="false" role="img" viewbox="0 0 64 64"><path class="logo-cup" d="M20 28c0 12 6 20 15 20s15-8 15-20H20Z"></path><path class="logo-rim" d="M18 28c0-3 7-6 17-6s17 3 17 6-7 6-17 6-17-3-17-6Z"></path><path class="logo-leaf" d="M39 20c2-9 10-14 19-12-1 9-7 16-18 17"></path><path class="logo-leaf-line" d="M42 22c5-5 9-8 15-12"></path><path class="logo-straw" d="M42 13 33 38"></path></svg></span><span class="brand-text">Tierra Mate<small>аргентинский мате</small></span></a>
+<p>Аргентинский мате в бумажной упаковке: понятная крепость, честный состав и цены в BYN.</p>
+</div>
+<div><h3>Разделы</h3><p><a href="catalog.html">Каталог</a><br/><a href="gallery.html">Галерея</a><br/><a href="country.html">Климат Аргентины</a></p></div>
+<div><h3>Контакты</h3><p>Минск, ул. Купеческая, 12<br/>+375 29 000-00-00<br/>Пн–Пт: 10:00–19:00</p></div>
+</div>
+</footer>
+<button aria-label="Наверх" class="to-top" id="toTop" type="button">↑</button>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Галерея — Tierra Mate</title>
+<meta content="Галерея продукции Tierra Mate с интерактивным просмотром изображений." name="description"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet"/>
+<script defer="" src="js/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+<header class="site-header">
+<div class="container nav-row">
+<a aria-label="Tierra Mate — главная страница" class="brand" href="index.html">
+<span aria-hidden="true" class="brand-mark brand-icon"><svg focusable="false" role="img" viewbox="0 0 64 64"><path class="logo-cup" d="M20 28c0 12 6 20 15 20s15-8 15-20H20Z"></path><path class="logo-rim" d="M18 28c0-3 7-6 17-6s17 3 17 6-7 6-17 6-17-3-17-6Z"></path><path class="logo-leaf" d="M39 20c2-9 10-14 19-12-1 9-7 16-18 17"></path><path class="logo-leaf-line" d="M42 22c5-5 9-8 15-12"></path><path class="logo-straw" d="M42 13 33 38"></path></svg></span>
+<span class="brand-text">Tierra Mate<small>аргентинский мате</small></span>
+</a>
+<nav aria-label="Основная навигация" class="main-nav" id="mainNav">
+<a href="index.html">Главная</a>
+<a href="about.html">О компании</a>
+<a href="catalog.html">Каталог</a>
+<a href="gallery.html">Галерея</a>
+<a href="country.html">Аргентина</a>
+<a href="contacts.html">Контакты</a>
+</nav>
+<div class="nav-actions">
+<button aria-label="Переключить тему" class="theme-toggle" id="themeToggle" type="button">☾</button>
+<button aria-controls="mainNav" aria-expanded="false" aria-label="Открыть меню" class="burger" id="burger" type="button"><span></span><span></span><span></span></button>
+</div>
+</div>
+</header>
+<main id="main">
+<section class="page-hero section-paper gallery-compact-hero">
+  <div class="container page-hero-grid gallery-hero-grid">
+    <div class="reveal">
+      <p class="eyebrow">Галерея производства</p>
+      <h1>Как Tierra Mate проходит путь от листа до упаковки</h1>
+      <p class="lead">На этой странице показаны основные этапы работы с мате: сбор листьев, подготовка сырья, фасовка, контроль качества и отправка готовых партий.</p>
+      <div class="button-row"><a class="btn btn-primary" href="#galleryStory">Смотреть процесс</a><a class="btn btn-ghost" href="catalog.html">Каталог вкусов</a></div>
+    </div>
+    <div class="hero-mini-photos reveal" aria-label="Фотографии производства">
+      <figure>
+        <button class="gallery-item photo-open" data-caption="Сбор листьев мате" data-category="сырьё" data-full="img/gallery-step-01.jpg" type="button"><img alt="Сбор листьев мате" src="img/gallery-step-01.jpg" loading="eager"></button>
+        <figcaption>Сбор листьев</figcaption>
+      </figure>
+      <figure>
+        <button class="gallery-item photo-open" data-caption="Фасовка в пакеты" data-category="фасовка" data-full="img/gallery-step-05.jpg" type="button"><img alt="Фасовка в пакеты" src="img/gallery-step-05.jpg" loading="eager"></button>
+        <figcaption>Фасовка</figcaption>
+      </figure>
+      <figure>
+        <button class="gallery-item photo-open" data-caption="Контроль качества" data-category="контроль" data-full="img/gallery-step-10.jpg" type="button"><img alt="Контроль качества" src="img/gallery-step-10.jpg" loading="eager"></button>
+        <figcaption>Контроль</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section gallery-story-compact" id="galleryStory">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Производственный цикл</p>
+      <h2>От аргентинского сырья до готовой партии</h2>
+      <p>Каждый этап показан отдельно: сначала короткое описание процесса, затем аккуратный ряд фотографий.</p>
+    </div>
+
+    <article class="gallery-step reveal">
+      <div class="step-copy">
+        <span class="step-index">01</span>
+        <h3>Сырьё и подготовка листа</h3>
+        <p>Основой продукта остаётся лист мате. Сначала сырьё собирают, затем отделяют грубые включения и подготавливают к дальнейшей обработке.</p>
+      </div>
+      <div class="step-photos">
+        <figure><button class="gallery-item photo-open" data-caption="Сбор листьев мате" data-category="сырьё" data-full="img/gallery-step-01.jpg" type="button"><img alt="Сбор листьев мате" src="img/gallery-step-01.jpg" loading="lazy"></button><figcaption>Сбор листьев</figcaption></figure>
+        <figure><button class="gallery-item photo-open" data-caption="Высушенные листья" data-category="сырьё" data-full="img/gallery-step-02.jpg" type="button"><img alt="Высушенные листья" src="img/gallery-step-02.jpg" loading="lazy"></button><figcaption>Высушенные листья</figcaption></figure>
+        <figure><button class="gallery-item photo-open" data-caption="Сырьё крупным планом" data-category="сырьё" data-full="img/gallery-step-03.jpg" type="button"><img alt="Сырьё крупным планом" src="img/gallery-step-03.jpg" loading="lazy"></button><figcaption>Сырьё крупным планом</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="gallery-step reveal">
+      <div class="step-copy">
+        <span class="step-index">02</span>
+        <h3>Обработка и составление вкусов</h3>
+        <p>После измельчения сырьё соединяют с натуральными добавками. Смеси собираются так, чтобы травяная основа мате оставалась заметной.</p>
+      </div>
+      <div class="step-photos">
+        <figure><button class="gallery-item photo-open" data-caption="Оборудование для обработки" data-category="обработка" data-full="img/gallery-step-04.jpg" type="button"><img alt="Оборудование для обработки" src="img/gallery-step-04.jpg" loading="lazy"></button><figcaption>Обработка</figcaption></figure>
+        <figure><button class="gallery-item photo-open" data-caption="Рабочий процесс упаковки" data-category="обработка" data-full="img/gallery-step-06.jpg" type="button"><img alt="Рабочий процесс упаковки" src="img/gallery-step-06.jpg" loading="lazy"></button><figcaption>Подготовка партии</figcaption></figure>
+        <figure><button class="gallery-item photo-open" data-caption="Готовые упаковки" data-category="готовый" data-full="img/gallery-step-07.jpg" type="button"><img alt="Готовые упаковки Tierra Mate" src="img/gallery-step-07.jpg" loading="lazy"></button><figcaption>Готовые вкусы</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="gallery-step reveal">
+      <div class="step-copy">
+        <span class="step-index">03</span>
+        <h3>Фасовка и контроль качества</h3>
+        <p>Партии фасуют в бумажные пакеты, проверяют внешний вид сырья, герметичность упаковки и соответствие выбранному вкусу.</p>
+      </div>
+      <div class="step-photos">
+        <figure><button class="gallery-item photo-open" data-caption="Фасовка в пакеты" data-category="фасовка" data-full="img/gallery-step-05.jpg" type="button"><img alt="Фасовка в пакеты" src="img/gallery-step-05.jpg" loading="lazy"></button><figcaption>Фасовка</figcaption></figure>
+        <figure><button class="gallery-item photo-open" data-caption="Контроль качества" data-category="контроль" data-full="img/gallery-step-10.jpg" type="button"><img alt="Контроль качества" src="img/gallery-step-10.jpg" loading="lazy"></button><figcaption>Контроль качества</figcaption></figure>
+        <figure><button class="gallery-item photo-open" data-caption="Оборудование фабрики" data-category="контроль" data-full="img/gallery-step-11.jpg" type="button"><img alt="Оборудование фабрики" src="img/gallery-step-11.jpg" loading="lazy"></button><figcaption>Оборудование</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="gallery-step reveal">
+      <div class="step-copy">
+        <span class="step-index">04</span>
+        <h3>Склад, отгрузка и готовый мате</h3>
+        <p>После проверки упаковки поступают на склад, сортируются по партиям и отправляются покупателям. Завершается путь уже в чашке или калабасе.</p>
+      </div>
+      <div class="step-photos">
+        <figure><button class="gallery-item photo-open" data-caption="Склад и партии товара" data-category="логистика" data-full="img/gallery-step-08.jpg" type="button"><img alt="Склад и партии товара" src="img/gallery-step-08.jpg" loading="lazy"></button><figcaption>Склад</figcaption></figure>
+        <figure><button class="gallery-item photo-open" data-caption="Команда Tierra Mate" data-category="логистика" data-full="img/gallery-step-12.jpg" type="button"><img alt="Команда Tierra Mate" src="img/gallery-step-12.jpg" loading="lazy"></button><figcaption>Команда</figcaption></figure>
+        <figure><button class="gallery-item photo-open" data-caption="Завершающий этап" data-category="логистика" data-full="img/gallery-step-09.jpg" type="button"><img alt="Завершающий этап" src="img/gallery-step-09.jpg" loading="lazy"></button><figcaption>Завершающий этап</figcaption></figure>
+      </div>
+    </article>
+  </div>
+</section>
+
+<div aria-hidden="true" class="lightbox" id="lightbox"><button aria-label="Закрыть" class="lightbox-close" type="button">×</button><button aria-label="Назад" class="lightbox-prev" type="button">‹</button><figure><img alt="" src=""><figcaption></figcaption></figure><button aria-label="Вперёд" class="lightbox-next" type="button">›</button></div>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<a class="brand footer-brand" href="index.html"><span aria-hidden="true" class="brand-mark brand-icon"><svg focusable="false" role="img" viewbox="0 0 64 64"><path class="logo-cup" d="M20 28c0 12 6 20 15 20s15-8 15-20H20Z"></path><path class="logo-rim" d="M18 28c0-3 7-6 17-6s17 3 17 6-7 6-17 6-17-3-17-6Z"></path><path class="logo-leaf" d="M39 20c2-9 10-14 19-12-1 9-7 16-18 17"></path><path class="logo-leaf-line" d="M42 22c5-5 9-8 15-12"></path><path class="logo-straw" d="M42 13 33 38"></path></svg></span><span class="brand-text">Tierra Mate<small>аргентинский мате</small></span></a>
+<p>Аргентинский мате в бумажной упаковке: понятная крепость, честный состав и цены в BYN.</p>
+</div>
+<div><h3>Разделы</h3><p><a href="catalog.html">Каталог</a><br/><a href="gallery.html">Галерея</a><br/><a href="country.html">Климат Аргентины</a></p></div>
+<div><h3>Контакты</h3><p>Минск, ул. Купеческая, 12<br/>+375 29 000-00-00<br/>Пн–Пт: 10:00–19:00</p></div>
+</div>
+</footer>
+<button aria-label="Наверх" class="to-top" id="toTop" type="button">↑</button>
+</body>
+</html>
